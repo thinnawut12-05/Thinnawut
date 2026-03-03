@@ -26,7 +26,7 @@
 1. **โคลนโปรเจค**  📂
 - ```git clone https://github.com/thinnawut12-05/Thinnawut```
 - ```cd Thinnawut```
-- ```cd code .```
+- ```code .```
 2.  **Import ฐานข้อมูล**  🗃️   
  -   เปิด  `phpmyadmin`   
  -   สร้างฐานข้อมูลใหม่ ที่มีชื่อ hotel_db    
