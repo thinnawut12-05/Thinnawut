@@ -483,7 +483,7 @@ $result = $conn->query($sql_select);
                             <?php if (!empty($row['Payment_image_file'])): ?>
                                 <?php
                                 $base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
-                                $image_web_path = $base_url . "/dom-inn/code/PHP/uploads/receipts/" . htmlspecialchars($row['Payment_image_file']);
+                                $image_web_path = $base_url . "/Thinnawut/code/PHP/uploads/receipts/" . htmlspecialchars($row['Payment_image_file']);
                                 ?>
                                 <a href="<?= $image_web_path ?>" target="_blank">
                                     <img src="<?= $image_web_path ?>" alt="สลิปโอนเงิน" class="receipt-thumbnail">
